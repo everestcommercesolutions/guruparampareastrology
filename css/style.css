@@ -8427,7 +8427,7 @@ div.top:before {
 }
 
 .mob-visit {
-    margin-left: 3px!important;
+    margin-left: -7px!important;
     margin-bottom: 3px!important;
     text-transform: uppercase!important;
     font-size: 12px!important;
@@ -8735,4 +8735,28 @@ div.top:before {
     border-right: 20px solid #ffb853;
     padding: 0 20px;
     box-shadow: 0px 0px 30px -10px #000000;
+}
+
+@media (max-width: 767px) and (min-width: 300px)
+{
+	.mob-visit 
+	{
+		margin-left: 0px!important;
+		margin-bottom: 3px!important;
+		text-transform: uppercase!important;
+		font-size: 12px!important;
+		color: #fff;
+	}
+}
+
+@media (max-width: 1150px) and (min-width: 700px) 
+{
+	.mob-visit 
+	{
+		margin-left: 0px!important;
+		margin-bottom: 3px!important;
+		text-transform: uppercase!important;
+		font-size: 12px!important;
+		color: #fff;
+	}
 }
